@@ -1,0 +1,11 @@
+{% extends "flashed.html" %}
+{% block body %}
+<form action="/auth" method="POST">
+    Username:<br>
+    <input type="text" name="username" value="user"><br>
+    Password:<br>
+    <input type="text" name="password" value="pass"><br>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}
+
